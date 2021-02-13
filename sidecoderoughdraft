@@ -1,0 +1,442 @@
+ CSS
+ #skillsGrid {
+    display: grid;
+    grid-template-rows: 410px 400px 410px 400px;
+    grid-template-columns: 408px 408px 408px;
+    margin: 90px 258px 0px 249px;
+    column-gap: 8px;
+    grid-template-areas:
+    "first-skill-image second-skill-image third-skill-image"
+    "fourth-skill-text fifth-skill-text sixth-skill-text"
+    "seventh-skill-image eighth-skill-image ninth-skill-image"
+    "tenth-skill-text eleventh-skill-text twelfth-skill-text"
+  }
+
+  #first-skill-image {
+    grid-area: "first-skill-image";
+    background-image: url("../images/skill-card-1.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #second-skill-image {
+    grid-area: "second-skill-image";
+    background-image: url("../images/skill-card-2.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #third-skill-image {
+    grid-area: "third-skill-image";
+    background-image: url("../images/skill-card-3.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  } 
+
+  #fourth-skill-text {
+    grid-area: "fourth-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+  #fifth-skill-text {
+    grid-area: "fifth-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+  #sixth-skill-text {
+    grid-area: "sixth-skill-text";
+    background-color: #EFEFEF;
+  } 
+   
+  #seventh-skill-image {
+    grid-area: "seventh-skill-image";
+    background-image: url("../images/skill-card-7.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #eighth-skill-image {
+    grid-area: "eighth-skill-image";
+    background-image: url("../images/skill-card-8.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #ninth-skill-image {
+    grid-area: "ninth-skill-image";
+    background-image: url("../images/skill-card-9.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  } 
+
+  #tenth-skill-text {
+    grid-area: "tenth-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+  #eleventh-skill-text {
+    grid-area: "eleventh-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+  #twelfth-skill-text {
+    grid-area: "twelfth-skill-text";
+    background-color: #EFEFEF;
+  } 
+
+   
+  .skill-grid-area {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+
+
+  
+  .resume {
+    width: 1254px;
+    height: 80px;
+    margin-left: 249px;
+    margin-right: 412px;
+    margin-top: 24px;
+  } 
+   
+  .resume-box {
+    margin: 12px 0px;
+  }
+
+  #sideGrid2 {
+    display: grid;
+    grid-template-rows: 86px 86px 86px;
+    grid-template-columns: 86px 525px 86px 525px;
+    margin-top: 24px;
+    margin: 740px 259px 0px 249px;
+    row-gap: 8px;
+    grid-template-areas:
+    "firsticon2 secondtext2 thirdicon2 fourthtext2"
+    "fifthicon2 sixthtext2 seventhicon2 eighthtext2"
+    "ninthicon2 tenthtext2"
+  }
+
+  #firsticon2 {
+    grid-area: "firsticon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  }
+  
+  #secondtext2 {
+    grid-area: "secondtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  #thirdicon2 {
+    grid-area: "thirdicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #fourthtext2 {
+    grid-area: "fourthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #fifthicon2 {
+    grid-area: "fifthicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #sixthtext2 {
+    grid-area: "sixthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #seventhicon2 {
+    grid-area: "seventhicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #eighthtext2 {
+    grid-area: "eighthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #ninthicon2 {
+    grid-area: "ninthicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #tenthtext2 {
+    grid-area: "tenthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  .sideGridArea2 {
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 8px;
+  }
+  
+
+
+
+HTML
+
+ <section id="skillsGrid">
+        <div id="first-skill-image" class="skill-grid-area"></div>
+        <div id="second-skill-image" class="skill-grid-area"></div>
+        <div id="third-skill-image" class="skill-grid-area"></div>
+
+        <div id="fourth-skill-text" class="skill-grid-area">
+            <div><h2>User Research</h2></div>
+            <p>Studying target users and 
+                their requirements, to add 
+                realistic contexts and 
+                insights to design 
+                processes. I adopt various 
+                methods to uncover 
+                problems and design 
+                opportunities.</p>
+        </div>
+        <div id="fifth-skill-text" class="skill-grid-area">
+            <h2>UI Design</h2> <br>
+            <p>Designing interfaces in software or computerised devices, 
+                focusing on looks or style. I aim to create interfaces which 
+                users find easy to use and pleasurable based on user research.</p>
+        </div>
+        <div id="sixth-skill-text" class="skill-grid-area">
+            <h2>Prototyping</h2> <br>
+            <p>Building low-fidelity and high-fidelity prototypes 
+                to implement ideas in tangible forms from paper to digital 
+                to capture design concepts and test on users.</p>
+        </div>
+
+        <div id="seventh-skill-image" class="skill-grid-area"></div>
+        <div id="eighth-skill-image" class="skill-grid-area"></div>
+        <div id="ninth-skill-image" class="skill-grid-area"></div>
+
+        <div id="tenth-skill-text" class="skill-grid-area">
+            <h2>Responsive Web Design</h2> <br>
+            <p>Conceptualising websites from 
+                an atomic design structure 
+                starting with a mobile-first 
+                approach. I design for all 
+                viewport sizes to allow more 
+                accessibility for users.</p>
+        </div>
+        <div id="eleventh-skill-text" class="skill-grid-area">
+            <h2>Mobile Design & App</h2> <br>
+            <p>Approaching UX and UI design on mobile devices, 
+                with a keen interest. I design for both mobile apps 
+                and websites as more and more users today are accessing 
+                the web through mobile.</p>
+        </div>
+        <div id="twelfth-skill-text" class="skill-grid-area">
+            <h2>Storytelling</h2> <br>
+            <p>Capturing audience through storytelling is key 
+                to a UX UI design that stands out in the crowd. 
+                Storytelling speaks to the essence of the product 
+                and makes it memorable for users.</p>
+        </div>
+    </section>
+      
+       
+       BIO HTML
+          <section id="bioGrid">
+        <div id="bioPhoto" class="bioGridArea">
+
+        </div>
+
+        <div id="bioLogo" class="bioGridArea">
+            <img src="images/logo.svg" alt="signature logo" width= "80%" height="80%">
+        </div>
+
+        <div id="bioInfo" class="bioGridArea">
+            <div class="skills-spacing"><h3>UX UI Designer</h3></div>
+            <div><p>I enjoy designing mobile apps and
+                responsive website design.
+                I specialise in visual design and 
+                user experience. I have a strong 
+                entrepreneurial working with 
+                small and medium businesses.</p></div>
+        </div>
+
+        <div id="bioButtons" class="bioGridArea">
+            <span>
+                <img src="images/linkedin.svg" alt="linkedin icon">
+            </span>
+            <span>
+                <img src="images/behance.svg" alt="behance icon">
+            </span>
+        </div>
+
+        <div id="bioCapabilities" class="bioGridArea">
+            <div class="skills-spacing">
+                <h4>CAPABILITIES</h4>
+            </div>
+                <p>User Research</p>
+                <p>UI Design</p>
+                <p>Interaction Design</p>
+                <p>Copywriting</p>
+                <p>Storytelling</p>
+                <p>Paper Prototyping</p>
+                <p>Wireframing
+                <p>Brand Style Guides</p>
+                <p>Responsive Web Design</p>
+                <p>App Design</p>
+            </div>
+        </div>
+
+        <div id="bioSkills" class="bioGridArea">
+            <div class="skills-spacing">
+                <h4>SKILLS</h4>
+            </div>
+
+            <div id="sideGrid">
+                <div id="firsticon" class="ln middle">
+                    <img src="images/adobe.svg" alt="adobe icon">
+                </div>
+                <div id="secondtext">
+                     <p>Adobe XD</p>
+                </div>
+                <div id="thirdicon" class="ln middle">
+                    <img src="images/figma.svg" alt="figma icon">
+                </div>
+                <div id="fourthtext">
+                    <p>Figma</p>
+                </div>
+                <div id="fifthicon" class="ln middle">
+                    <img src="images/htmlcss.svg" alt="htmlcss icon">
+                </div>
+                <div id="sixthtext">
+                    <p>HTML & CSS</p>
+                </div>
+                <div id="seventhicon" class="ln middle">
+                    <img src="images/photoshop.svg" alt="photoshop icon">
+                </div>
+                <div id="eighthtext">
+                    <p>Photoshop</p>
+                </div>
+                <div id="ninthicon" class="ln middle">
+                    <img src="images/githubsvg.svg" alt="github icon">
+                </div>
+                <div id="tenthtext">
+                    <p>Github</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    Footer CSS
+    nav {
+  display: flex;
+  height: 84px;
+  width: 100%;
+} 
+
+.nav-push-left {
+  height: 84px;
+  width: 220px;
+}
+
+.button-nav {
+  margin: 8px;
+  padding: 0px 18px;
+} 
+
+.home-button {
+  font-weight: 600;
+}
+
+.to-right {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin: 8px;
+} 
+
+HTML FOOTER INDEX
+
+    <footer class="ln">
+        <div class="centered-text">
+            <p>Copyright 2021   l   xina.ccastillo@gmail.com   l    +(61) 411 145 663   l   123 Eagle St, Brisbane QLD Australia</p>
+        </div>
+        <div class="to-right">
+            <div class="button-nav middle circle ln">
+                <img src="images/facebook.svg" alt="facebook icon">
+            </div>
+            <div class="button-nav middle circle ln">
+                <img src="images/twitter.svg" alt="twitter icon">
+            </div>
+        </div>
+    </footer>
+
+    CSS
+    footer {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  background-color: white;
+} 
+
+.footer-push-left {
+  height: 120px;
+  width: 220px
+}
+
+.f-button-nav {
+  height: 12px;
+  margin: 40px 4px;
+  padding: 12px 12px;
+} 
+ 
+  
+  HTML NAV BAR LINKS
+  <body>
+    <nav class="ln nav-bar-text">
+            <div class="nav-push-left"></div>
+            <div class="button-nav middle home-button"><a href="index.html">HOME</a></div>
+            <div class="button-nav middle"><a href="work.html">WORK</a></div>
+            <div class="button-nav middle"><a href="about.html">ABOUT</a></div>
+            <div class="button-nav middle">CONTACT</div>
+    </nav>
+
+
+
+    LAST FOOTER BAR
+    <footer class="ln">
+    <div class="footer-push-left"></div>
+    <div class="f-button-nav middle ln noln-top noln-bottom">Copyright 2021</div>
+    <div class="f-button-nav middle ln noln-top noln-bottom">xina.ccastillo@gmail.com</div>
+    <div class="f-button-nav middle ln noln-top noln-bottom">+(61) 411 145 663</div>
+    <div class="f-button-nav middle ln noln-top noln-bottom">123 Eagle St, Brisbane QLD Australia</div>
+
+    <div class="to-right">
+        <div class="button-nav middle circle ln">
+            <img src="images/facebook.svg" alt="facebook icon">
+        </div>
+        <div class="button-nav middle circle ln">
+            <img src="images/twitter.svg" alt="twitter icon">
+        </div>
+    </div>
+
+</footer>
+

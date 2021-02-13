@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="408" height="420" viewBox="0 0 408 420">
+  <g id="Skill_Card_1" data-name="Skill Card 1" transform="translate(-252 -336)">
+    <rect id="Tile_1" data-name="Tile 1" width="408" height="420" transform="translate(252 336)" fill="none" opacity="0.905"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="94.5" cy="94.5" r="94.5" transform="translate(364 452)" fill="#d0d0d0"/>
+    <text id="UX" transform="translate(417 567)" fill="#303030" font-size="60" font-family="ArialMT, Arial"><tspan x="0" y="0">UX</tspan></text>
+  </g>
+</svg>

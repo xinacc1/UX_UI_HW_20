@@ -1,0 +1,1176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #707070;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 1780px;
+    scroll-behavior: smooth;
+}
+ 
+.ln {
+    border: 1px solid #bdbdbd;
+}
+
+.noln-top {
+    border-top: none;
+}
+.noln-bottom {
+    border-bottom: none;
+}
+.noln-left {
+    border-left: none;
+}
+.noln-right {
+    border-right: none;
+}
+
+nav {
+    display: flex;
+    height: 84px;
+    width: 100%;
+} 
+ 
+.nav-push-left {
+    height: 84px;
+    width: 220px;
+}
+
+.button-nav {
+    margin: 8px;
+    padding: 0px 18px;
+} 
+
+.button-nav p {
+  font-size: 32px;
+}
+ 
+.home-button {
+    font-weight: 600;
+}
+ 
+.to-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin: 8px;
+} 
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: 600; 
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+} 
+ 
+h4 {
+    font-weight: 300;
+    font-size: 24px;
+}
+ 
+h5 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+
+ 
+p {
+    font-weight: 300;
+    font-size: 16px;
+} 
+ 
+.left-panel {
+    margin-left: 252px;
+}
+ 
+.right-panel {
+    margin-right: 410px;
+}
+ 
+.float-right {
+    float: right;
+}
+ 
+.container-panel {
+    display: flex;
+    flex-flow: row wrap;
+    width: 423px;
+    height: calc(100% - 84px);
+    padding-top: 92px;
+} 
+ 
+.mask {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+} 
+ 
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+  
+.panel-skills {
+    width: 380px;
+    height: calc (100% - 400px);
+    padding-top: 370px;
+} 
+
+.panel-skills li {
+    margin-left: 40px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+ 
+.main-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    width: 850px;
+    height: 2182px;
+}
+ 
+.circle {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+ 
+.tile {
+    margin: 0px 8px;
+    position: relative;
+    text-align: center;
+} 
+ 
+.absolute-left {
+    position: absolute;
+    top: 0;
+    left: 252px;
+  }
+
+.absolute-right {
+    position: absolute;
+    top: 103px;
+    right: 0;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+  }
+   
+.text-align-center {
+    text-align: center;
+} 
+ 
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+} 
+ 
+.panel-box {
+    width: 375px;
+    height: 325px;
+}
+ 
+.port-icons {
+    display: flex;
+    flex-flow: row wrap;
+    width: 360px;
+    height: 100px;
+}
+ 
+/*FOOTER*/
+footer {
+    bottom: 0;
+    width: 1780px;
+    height: 400px;
+    background-color:#303030;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+  } 
+  
+  footer p{
+    color: white;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .footer-distributed .footer-left {
+    width: 30%;
+  }
+  
+  .footer-distributed .copyright {
+    margin-top: 16px;
+    font-weight: 600;
+  }
+  
+  .footer-distributed .footer-center {
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-right {
+    width: 35%;
+    position:absolute;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: white;
+    margin: 0;
+    padding: 4px 0px 4px 0px;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display: inline-block;
+    line-height: 2;
+  }
+  
+  .footer-distributed .footer-links a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-company-about {
+    color: white;
+    font-weight: 600;
+  }
+  
+  
+  
+  .footer-distributed .footer-icons .pink-icon{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgba(230, 164, 196, 0.3);
+  }
+  
+  
+  .footer-distributed .footer-icons .orange-icon{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgba(242, 170, 163, 0.3);
+  }
+  
+  .footer-distributed .footer-icons .blue-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgba(123, 200, 255, 0.3);
+  }
+  
+  .social-icon {
+    padding-top: 15px;
+  }
+  
+  #SocialGrid {
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    column-gap: 10px;
+    margin: 26px auto 0px 0px;
+    grid-template-areas:
+    "fb-icon tw-icon ln-icon be-icon db-icon"
+  }
+  
+  #fb-icon {
+    grid-area: "fb-icon";
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgba(230, 164, 196, 0.3);
+  }
+  
+  #tw-icon {
+    grid-area: "tw-icon";
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgba(242, 170, 163, 0.3);
+  }
+  
+  
+  #ln-icon {
+    grid-area: "ln-icon";
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgba(123, 200, 255, 0.3);
+  }
+  
+  
+  #be-icon {
+    grid-area: "be-icon";
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgba(230, 164, 196, 0.3);
+  }
+  
+  
+  #db-icon {
+    grid-area: "db-icon";
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: rgba(242, 170, 163, 0.3);
+  }
+  
+  
+   
+  .SocialGridArea {
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  
+  .top-icon-padding {
+    padding-top: 28px;
+  }
+  
+  /*END OF FOOTER*/
+ 
+.abso-left {
+    position: absolute;
+    top: 93px;
+    left: 252px;
+    width: 400px;
+    height: 1600px;
+}
+ 
+.column {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+  } 
+
+.info-box {
+    position: relative;
+    text-align: left;
+    margin: 40px 0px;
+}  
+ 
+.uxui-box {
+    position: relative;
+    text-align: left;
+    margin: 5px 0px;
+}  
+ 
+.skills-spacing {
+    position: relative;
+    text-align: left;
+    margin: 6px 0px;
+}
+ 
+.button-footer {
+    margin: 15px;
+    padding: 30px 18px;
+} 
+ 
+.connect-text {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+} 
+ 
+.white-text {
+    color: white;
+}
+  
+.logo-box{
+    position: relative;
+    text-align: left;
+    margin: 0px;
+} 
+ 
+.column {
+    display: flex;
+    width: 850px;
+    height: 428px;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  
+  .meal1, .meal2, .meal3 {
+    height: 420px;
+    width: 408px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .meal1 {
+    background-image: url("../images/tinder_tile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 8px;
+  
+  }
+  .meal2 {
+    background-image: url("../images/fairplay_tile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 8px;
+  }
+  .meal3 {
+    background-image: url("../images/ecsa_tile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 8px;
+  }
+  
+  .text {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px;
+    margin-top: 170px;
+    color: white;
+    text-align: center;
+  } 
+
+  .text2 {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 0px;
+    color: white;
+    text-align: center;
+  } 
+
+  .background1 {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+  }
+   
+  .background2 {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+  }
+
+  .background3 {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+  } 
+  
+ #mainGrid {
+    display: grid;
+    grid-template-rows: 408px 408px 408px 408px;
+    grid-template-columns: 420px 420px;
+    margin: 0px 108px 0px 683px;
+    grid-template-areas:
+    "firstproject secondproject"
+    "thirdproject fourthproject"
+    "fifthproject sixthproject"
+  }
+
+  #firstproject {
+    grid-area: "firstproject";
+    background-image: url("../images/Tinder.svg");
+  }
+  
+  #secondproject {
+    grid-area: "secondproject";
+    background-image: url("../images/Fairplay.svg");
+  }
+  
+  #thirdproject {
+    grid-area: "thirdproject";
+    background-image: url("../images/ECSA.svg");
+  } 
+
+  #fourthproject {
+    grid-area: "fourthproject";
+    background-image: url("../images/sample.svg");
+  } 
+
+  #fifthproject {
+    grid-area: "fifthproject";
+    background-image: url("../images/sample.svg");
+  } 
+
+  #sixthproject {
+    grid-area: "sixthproject";
+    background-image: url("../images/sample.svg");
+  } 
+
+   
+  .heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 8px;
+  }
+   
+  #sideGrid {
+    display: grid;
+    grid-template-rows: 86px 86px 86px 86px;
+    grid-template-columns: 86px 240px;
+    margin: 0px;
+    row-gap: 8px;
+    grid-template-areas:
+    "firsticon secondtext"
+    "thirdicon fourthtext"
+    "fifthicon sixthtext"
+    "seventhicon eighthtext"
+    "ninthicon tenthtext"
+  }
+
+  #firsticon {
+    grid-area: "firsticon";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  }
+  
+  #secondtext {
+    grid-area: "secondtext";
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  #thirdicon {
+    grid-area: "thirdicon";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #fourthtext {
+    grid-area: "fourthtext";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #fifthicon {
+    grid-area: "fifthicon";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #sixthtext {
+    grid-area: "sixthtext";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #seventhicon {
+    grid-area: "seventhicon";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #eighthtext {
+    grid-area: "eighthtext";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #ninthicon {
+    grid-area: "ninthicon";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #tenthtext {
+    grid-area: "tenthtext";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+   
+  .sideGridArea {
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 8px;
+  }
+ 
+  #workGrid {
+    display: grid;
+    grid-template-rows: 420px 420px 420px;
+    grid-template-columns: 408px 832px;
+    margin: 90px 258px 0px 249px;
+    row-gap: 8px;
+    column-gap: 8px;
+    grid-template-areas:
+    "first-tile second-text"
+    "third-tile fourth-text"
+    "fifth-tile sixth-text"
+  }
+
+  #first-tile {
+    grid-area: "first-tile";
+    background-image: url("../images/Tinder-work-tile.svg");
+  }
+  
+  #second-text {
+    grid-area: "second-text";
+    background-color: #EFEFEF;
+    padding-top: 44px;
+    padding-left: 106px;
+  }
+  
+  #third-tile {
+    grid-area: "third-tile";
+    background-image: url("../images/Fairplay-work-tile.svg");
+  } 
+
+  #fourth-text {
+    grid-area: "fourth-text";
+    background-color: #EFEFEF;
+    padding-top: 44px;
+    padding-left: 106px;
+  } 
+
+  #fifth-tile {
+    grid-area: "fifth-tile";
+    background-image: url("../images/ECSA-work-tile.svg");
+  } 
+
+  #sixth-text {
+    grid-area: "sixth-text";
+    background-color: #EFEFEF;
+    padding-top: 44px;
+    padding-left: 106px;
+  } 
+
+   
+  .work-grid-area {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   
+  .title {
+    width: 1254px;
+    height: 80px;
+    margin-left: 249px;
+    margin-right: 412px;
+    margin-top: 100px;
+  }
+    
+  
+  #skillsGrid {
+    display: grid;
+    grid-template-rows: 410px 350px 410px 350px;
+    grid-template-columns: 408px 408px 408px;
+    margin: 90px 258px 0px 249px;
+    column-gap: 8px;
+    grid-template-areas:
+    "first-skill-image second-skill-image third-skill-image"
+    "fourth-skill-text fifth-skill-text sixth-skill-text"
+    "seventh-skill-image eighth-skill-image ninth-skill-image"
+    "tenth-skill-text eleventh-skill-text twelfth-skill-text"
+  }
+
+  #first-skill-image {
+    grid-area: "first-skill-image";
+    background-image: url("../images/skill-card-1.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #second-skill-image {
+    grid-area: "second-skill-image";
+    background-image: url("../images/skill-card-2.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #third-skill-image {
+    grid-area: "third-skill-image";
+    background-image: url("../images/skill-card-3.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  } 
+
+  #fourth-skill-text {
+    grid-area: "fourth-skill-text";
+    background-color: #EFEFEF;
+    padding: 44px 18px 0px 18px;
+  } 
+
+  #fifth-skill-text {
+    grid-area: "fifth-skill-text";
+    background-color: #EFEFEF;
+    padding: 44px 18px 0px 18px;
+  } 
+
+  #sixth-skill-text {
+    grid-area: "sixth-skill-text";
+    background-color: #EFEFEF;
+    padding: 44px 18px 0px 18px;
+  } 
+   
+  #seventh-skill-image {
+    grid-area: "seventh-skill-image";
+    background-image: url("../images/skill-card-7.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #eighth-skill-image {
+    grid-area: "eighth-skill-image";
+    background-image: url("../images/skill-card-8.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  }
+  
+  #ninth-skill-image {
+    grid-area: "ninth-skill-image";
+    background-image: url("../images/skill-card-9.svg");
+    margin-top: 8px;
+    border: 1px solid #3A3A3A;
+  } 
+
+  #tenth-skill-text {
+    grid-area: "tenth-skill-text";
+    background-color: #EFEFEF;
+    padding: 44px 18px 0px 18px;
+  } 
+
+  #eleventh-skill-text {
+    grid-area: "eleventh-skill-text";
+    background-color: #EFEFEF;
+    padding: 44px 18px 0px 18px;
+  } 
+
+  #twelfth-skill-text {
+    grid-area: "twelfth-skill-text";
+    background-color: #EFEFEF;
+    padding: 44px 18px 0px 18px;
+  } 
+
+   
+  .skill-grid-area {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+  
+  .resume {
+    width: 1254px;
+    height: 80px;
+    margin-left: 249px;
+    margin-right: 412px;
+    margin-top: 24px;
+  } 
+   
+  .resume-box {
+    margin: 12px 0px;
+  }
+
+  #sideGrid2 {
+    display: grid;
+    grid-template-rows: 86px 86px 86px;
+    grid-template-columns: 86px 525px 86px 525px;
+    padding-top: 24px;
+    margin: 740px 259px 0px 249px;
+    row-gap: 8px;
+    grid-template-areas:
+    "firsticon2 secondtext2 thirdicon2 fourthtext2"
+    "fifthicon2 sixthtext2 seventhicon2 eighthtext2"
+    "ninthicon2 tenthtext2"
+  }
+
+  #firsticon2 {
+    grid-area: "firsticon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  }
+  
+  #secondtext2 {
+    grid-area: "secondtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  #thirdicon2 {
+    grid-area: "thirdicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #fourthtext2 {
+    grid-area: "fourthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #fifthicon2 {
+    grid-area: "fifthicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #sixthtext2 {
+    grid-area: "sixthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #seventhicon2 {
+    grid-area: "seventhicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #eighthtext2 {
+    grid-area: "eighthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  #ninthicon2 {
+    grid-area: "ninthicon2";
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+  } 
+
+  #tenthtext2 {
+    grid-area: "tenthtext2";
+    padding-top: 30px;
+    padding-left: 30px;
+  } 
+
+  .sideGridArea2 {
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 8px;
+  }
+
+  .work-bottom-space {
+    width: 1920px;
+    height: 500px;
+  }
+
+  /*PROJECT OVERLAY*/
+.first-project-overlay,
+.second-project-overlay,
+.third-project-overlay,
+.fourth-project-overlay,
+.fifth-project-overlay,
+.sixth-project-overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+}
+
+.first-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.second-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.third-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.fourth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.fifth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.sixth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+/*END PROJECT OVERLAY*/
+
+
+/*CONTACT FORM*/
+#ContactGrid {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 400px 25px 50px;
+    grid-template-columns: 600px;
+    margin: 90px 258px 0px 249px;
+    grid-template-areas:
+    "name-text"
+    "name-box"
+    "email-text"
+    "email-box"
+    "message-text"
+    "message-box"
+    "submit-button"
+  }
+
+  #name-text {
+    grid-area: "name-text";
+  }
+  
+  #name-box {
+    grid-area: "name-text";
+    border: 1px solid #3A3A3A;
+  }
+  
+  #email-text {
+    grid-area: "email-text";
+  } 
+
+  #email-box {
+    grid-area: "email-box";
+    border: 1px solid #3A3A3A;
+  } 
+
+  #message-text {
+    grid-area: "message-text";
+  } 
+
+  #message-box {
+    grid-area: "message-box";
+    border: 1px solid #3A3A3A;
+    margin-bottom: 36px;
+  } 
+  
+  #submit-button {
+    grid-area: "submit-button";
+    background-color: #FBE5E3;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    border: none;
+    width: 600px;
+  }
+
+   
+  .ContactGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+
+  /*END CONTACT FORM*/
+
+
+
+
+
+
+
+  
+
+  @media only screen and (max-width: 1000px) {
+    html,
+    body {
+    height: 100%;
+    width: 1000px;
+  }
+
+    .nav-push-left {
+      width: 20px;
+    }
+
+    .button-nav {
+      margin: 4px;
+    }
+
+    .title {
+      width: 800px;
+      margin-left: 44px;
+    }
+
+    #ContactGrid {
+        display: grid;
+        grid-template-columns: 600px;
+        margin: 90px 44px 0px 44px;
+        grid-template-areas:
+        "name-text"
+        "name-box"
+        "email-text"
+        "email-box"
+        "message-text"
+        "message-box"
+        "submit-button"
+      }
+
+      footer {
+        bottom: 0;
+        width: 1000px;
+        height: 800px;
+        background-color:#303030;
+      } 
+    
+    
+      .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+            display: block;
+            width: 1000px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    
+      #SocialGrid {
+        display: grid;
+        grid-template-rows: 60px;
+        grid-template-columns: 60px 60px 60px 60px 60px;
+        column-gap: 10px;
+        margin-left: 350px;
+        margin-bottom: 50px;
+        grid-template-areas:
+        "fb-icon tw-icon ln-icon be-icon db-icon"
+      }
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+    html,
+    body {
+    height: 100%;
+    width: 600px;
+  }
+
+    .nav-push-left {
+      width: 0px;
+    }
+
+    .button-nav {
+      margin: 4px;
+    }
+
+    #title {
+      width: 400px;
+      margin-left: 0px;
+    }
+
+    #ContactGrid {
+        display: grid;
+        grid-template-columns: 400px;
+        margin: 90px 20px 0px 20px;
+        grid-template-areas:
+        "name-text"
+        "name-box"
+        "email-text"
+        "email-box"
+        "message-text"
+        "message-box"
+        "submit-button"
+      }
+
+      #submit-button {
+        grid-area: "submit-button";
+        background-color: #FBE5E3;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: center;
+        border: none;
+        width: 400px;
+      }
+
+
+    h4 {
+      font-weight: 300px; 
+      font-size: 24px;
+    }
+
+  
+    ul { 
+      display: block;
+      list-style-type: disc;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 40px;
+    }
+
+    footer {
+        bottom: 0;
+        width: 600px;
+        height: 800px;
+        background-color:#303030;
+      } 
+    
+    
+      .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+            display: block;
+            width: 600px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+    
+      #SocialGrid {
+        display: grid;
+        grid-template-rows: 60px;
+        grid-template-columns: 60px 60px 60px 60px 60px;
+        column-gap: 10px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        grid-template-areas:
+        "fb-icon tw-icon ln-icon be-icon db-icon"
+      }
+
+  }
+  
