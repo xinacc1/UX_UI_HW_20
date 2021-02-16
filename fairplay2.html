@@ -8,29 +8,102 @@
     <link rel="stylesheet" href="css/stylefairplay.css" type="text/css">
 </head>
 <body>
-
-    <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
+  <body>
 
 
+    <!--BOOTSTRAP NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light ln noln-top customNav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html">WORK</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="fairplay2.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FAIRPLAY</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Research</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Definition</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Ideation</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Prototyping</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Testing</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--END BOOTSTRAP NAV-->
+
+    <div class="bio-spacing"></div>
+
+
+    <!--BOOTSTRAP JUMBOTRON-->
       <div class="jumbotron">
-        <img src="images/Jumbotron1.svg" alt="fairplay case study cover" width="100%" height="100%">
+        <img src="images/Jumbotron1B.svg" alt="fairplay case study cover" width="100%" height="100%">
+      </div>
+        <!--END BOOTSTRAP JUMBOTRON-->
+
+
+        <!--BOOTSTRAP COL SYSTEM-->
+      <div class="container">
+        <div class="row">
+          <div class="col-l-6 col-md-6">
+            <h4>Fairplay: UX UI Case Study</h4>
+          </div>
+          <div class="col-l-6 col-md-6">
+            <section id="ToolsGrid">
+              <div id="tool-text">
+                <p>TOOLS</p>
+              </div>
+              <div id="tool1" class="ln middle">
+                  <img src="images/adobe.svg" alt="adobe icon">
+              </div>
+              <div id="tool2" class="ln middle">
+                  <img src="images/figma.svg" alt="figma icon">
+              </div>
+              <div id="tool3" class="ln middle">
+                  <img src="images/htmlcss.svg" alt="htmlcss icon">
+              </div>
+              <div id="tool4" class="ln middle">
+                  <img src="images/photoshop.svg" alt="photoshop icon">
+              </div>
+            </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+       <!--BOOTSTRAP COL SYSTEM-->
+      <div class="container">
+        <div class="row">
+          <div class="col-l-1">
+            <img src="images/BioMaskPhoto.svg" alt="bio mask photo" width="80%" height="80%">
+          </div>
+          <div class="col-l-11">
+            <p class="bold text-padding">Xina Chang-Castillo</p>
+            <p class="text-padding">Jan 2021 - 7 min read</p>
+          </div>
+        </div>
       </div>
 
 
-
+      <div class="bio-spacing"></div>
 
      <div class="container">
         <h2>Introduction</h2>
@@ -47,15 +120,38 @@
 
         <h2>Heuristics Evaluation</h2>
         <p>Based on an initial heuristic evaluations, the following obvious UX UI principles that are to be applied to increase heuristics.</p>
-
-        <img src="images/Heuristics.svg" alt="heuristics evaluation">
      
+      </div>
+
+       <!--BOOTSTRAP COL SYSTEM-->
+      <div class="container">
+        <div class="row">
+          <div class="col-l-3">
+          </div>
+          <div class="col-l-3">
+            <img src="images/Heuristics.svg" alt="heuristics evaluation" width="100%" height="100%">
+          </div>
+          <div class="col-l-3">
+          </div>
+        </div>
       </div>
 
       <div class="container">
         <h2>UI Design Process</h2>
         <p>I was tasked with storyboarding, UX writing, heuristics evaluation, initial competitive analysis, writing problem statement and user insight, empathy maps, user persona, visual design contributions, designing donation sequence, mobile prototype and mobile user testing.</p>
-        <img src="images/DesignFlow.svg" alt="UI design flow chart">
+      </div>
+
+       <!--BOOTSTRAP COL SYSTEM-->
+      <div class="container">
+        <div class="row">
+          <div class="col-l-3">
+          </div>
+          <div class="col-l-3">
+            <img src="images/DesignFlow.svg" alt="UI design flow chart" width="100%" height="100%">
+          </div>
+          <div class="col-l-3">
+          </div>
+        </div>
       </div>
 
 
@@ -67,9 +163,21 @@
           Furthermore, we conducted a survey with peers on whether they had donated to an international charity before and if not, why had they not. 
           
           Here are the survey results:</p>
-        <img src="images/SurveyResults.svg" alt="Survey Results Chart">
       </div>
 
+       <!--BOOTSTRAP COL SYSTEM-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-l-3">
+          </div>
+          <div class="col-l-3">
+            <img src="images/SurveyResults.svg" alt="Survey Results Chart" width="100%" height="100%">
+          </div>
+          <div class="col-l-3">
+          </div>
+        </div>
+      </div>
 
 
       <div class="container">
@@ -78,13 +186,14 @@
    
       </div>
 
+       <!--BOOTSTRAP COL SYSTEM-->
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <p>Number of smartphone users in the Philippines from 2015 to 2019 with a forecast until 2025 (in millions)</p>
+            <h2 class="pink-text">Number of smartphone users in the Philippines from 2015 to 2019 with a forecast until 2025 (in millions)</h2>
           </div>
           <div class="col-sm">
-            <img src="images/SmartphoneChart.svg" alt="Smart phone chart">
+            <img src="images/SmartphoneChart.svg" alt="Smart phone chart"  width="100%" height="100%">
           </div>
         </div>
       </div>
@@ -93,38 +202,104 @@
       <div class="container">
         <h2>Writing the User Insight Statement</h2>
         <p>To kick off the definition phrase of this project, we then formulated the following user insight statement based on survey results:</p>
-        <img src="images/UserInsightCard.svg" alt="user insight statemetn">
 
+
+      </div>
+
+
+ <!--BOOTSTRAP COL SYSTEM-->
+      <div class="container">
+        <div class="row">
+          <div class="col-l-3">
+          </div>
+          <div class="col-l-3 col-sm-12">
+            <img src="images/UserInsightCard.svg" alt="user insight statement" width="100%" height="100%">
+          </div>
+          <div class="col-l-3">
+          </div>
+        </div>
       </div>
 
 
       <div class="container">
         <h2>Writing Problem Statement</h2>
-        <img src="images/ProblemStatementCard.svg" alt="problem statement">
+        <p>Based on our research survey we then formed the following problem statement and tied local users into our storyboard. Our research showed that there was a strong need to see that users can trust the charity and this was the major focus on this project. </p>
 
+      </div>
+ <!--BOOTSTRAP COL SYSTEM-->
+      <div class="container">
+        <div class="row">
+          <div class="col-l-3">
+          </div>
+          <div class="col-l-3 col-sm-12">
+            <img src="images/ProblemStatementCard.svg" alt="problem statement" width="100%" height="100%">
+          </div>
+          <div class="col-l-3">
+          </div>
+        </div>
       </div>
 
 
       <div class="container"> 
         <h2>Competitor Analysis</h2>
         <p>We completed a competitor analysis for other international charities to do with school and children in poverty areas of third-world countries. I was tasked with the research and finding similar charities before another team member finished the competitor’s analysis.</p>
-        <img src="images/CompetitorsChart.svg" alt="competitor analysis">
+
 
       </div>
+ <!--BOOTSTRAP COL SYSTEM-->
+      <div class="container">
+        <div class="row">
+          <div class="col-l-3">
+          </div>
+          <div class="col-l-3 col-sm-12">
+            <img src="images/CompetitorsChart.svg" alt="competitor analysis" width="100%" height="100%">
+          </div>
+          <div class="col-l-3">
+          </div>
+        </div>
+      </div>
+
 
 
       <div class="container"> 
         <h2>Empathy Map</h2>
         <p>We didn’t have very much information to go by from the stakeholders. Our user persona was built around an expatriate Australian living within the Philippines who is looking to donate to a meaningful charity.</p>
-        <img src="images/EmpathyMap.svg" alt="empathy map">
+       
 
       </div>
+ <!--BOOTSTRAP COL SYSTEM-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-l-3">
+          </div>
+          <div class="col-l-3 col-sm-12">
+            <img src="images/EmpathyMap.svg" alt="empathy map"  width="100%" height="100%">
+          </div>
+          <div class="col-l-3">
+          </div>
+        </div>
+      </div>
+
 
       <div class="container"> 
         <h2>User Persona</h2>
         <p>We then built a user persona based on the empathy map.</p>
-        <img src="images/UserPersona.svg" alt="user persona">
+      
 
+      </div>
+
+ <!--BOOTSTRAP COL SYSTEM-->
+      <div class="container">
+        <div class="row">
+          <div class="col-l-3">
+          </div>
+          <div class="col-l-3 col-sm-12">
+            <img src="images/UserPersona.svg" alt="user persona" width="100%" height="100%">
+          </div>
+          <div class="col-l-3">
+          </div>
+        </div>
       </div>
 
 
@@ -134,98 +309,94 @@
 
       </div>
 
-
+ <!--BOOTSTRAP COL SYSTEM-->
       <div class="container">
         <div class="row">
-          <div class="col-sm">
-            Cody moves to the Philippines.
+          <div class="col-l-3">
           </div>
-          <div class="col-sm">
-            Cody sees poverty in the community.
+          <div class="col-l-3 col-sm-12">
+            <img src="images/UserJourney.svg" alt="storyboard user journey" width="100%" height="100%">
           </div>
-          <div class="col-sm">
-            Cody finds out about Fairplay
+          <div class="col-l-3">
           </div>
         </div>
 
-
-        <div class="row">
-          <div class="col-sm">
-            Cody makes a donation via the website.
-          </div>
-          <div class="col-sm">
-            Cody feels satisfied, knowing he made a difference.
-          </div>
-          <div class="col-sm">
-            Cody tells his family back home about FairPlay.
-          </div>
-        </div>
-      </div>
-      
-      <div>
-      <p>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
-          1. Donate money
-        </a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          2. ?
-        </button>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
-          2. Social media links
-        </a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          2. ?
-        </button>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse3 role="button" aria-expanded="false" aria-controls="collapseExample">
-          3. Join the mailing list
-        </a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          2. ?
-        </button>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapseExample">
-          4. Get to the 'Education' page
-        </a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          2. ?
-        </button>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapseExample">
-          5. Articulate what the charity is about
-        </a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          2. ?
-      </p>
-      <div class="collapse" id="collapse1">
-        <div class="card card-body">
-          Participants found this task medium to difficult.
-        </div>
-      </div>
-      <div class="collapse" id="collapse2">
-        <div class="card card-body">
-          Participants found this task of moderately difficult. 
-        </div>
-      </div>
-      <div class="collapse" id="collapse3">
-        <div class="card card-body">
-          Participants found this task difficult.
-        </div>
-      </div>
-      <div class="collapse" id="collapse4">
-        <div class="card card-body">
-          Participants found this task easy.
-        </div>
-      </div>
-      <div class="collapse" id="collapse5">
-        <div class="card card-body">
-          All participants were unclear with waht the FairPlay charity was about.
-        </div>
-      </div>
-      </div>
-    </div>
 
 
     <div class="container"> 
+      <h2>User Testing</h2>
+        <p>Usability testing was originally done to find out what users thought about the website to find out thoughts.</p>
+        <p>We tested 5 participants on the design with the following objectives:</p>
+    </div>
+
+
+    <!--BOOTSTRAP COLLAPSE & CARD-->
+     <!--BOOTSTRAP COL SYSTEM-->
+    <div class="container">
+      <div class="row">
+        <div class="col-l-3">
+        </div>
+
+
+        <div class="col-l-3">
+
+          <button class="btn blue-button" data-toggle="collapse" data-target="#content">1. Donate Money</button>
+         
+          <button class="btn blue-button" data-toggle="collapse" data-target="#content2">2. Find Social Media Links</button>
+        
+          <button class="btn blue-button" data-toggle="collapse" data-target="#content3">3. Join Mailing List</button>
+          
+          <button class="btn blue-button" data-toggle="collapse" data-target="#content4">4. Go To 'Education' Page</button>
+
+          <button class="btn blue-button" data-toggle="collapse" data-target="#content5">5. Explain what the charity is about</button>
+          
+          
+          <div class="collapse" id="content">
+            <div class="card card-body ln">
+              Participants found this task medium to difficult.
+            </div>
+          </div>
+
+          <div class="collapse" id="content2">
+            <div class="card card-body ln">
+              Participants found this task medium in difficulty.
+            </div>
+          </div>
+
+          <div class="collapse" id="content3">
+            <div class="card card-body ln">
+              Participants found this task difficult.
+            </div>
+          </div>
+
+          <div class="collapse" id="content4">
+            <div class="card card-body ln">
+              Participants found this task easy.
+            </div>
+          </div>
+
+          <div class="collapse" id="content5">
+            <div class="card card-body ln">
+              All participants were quite unclear with what the FairPlay charity was about. 
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-l-3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!--END BOOTSTRAP COLLAPSE & CARD-->
+
+    <div class="container"> 
       <h2>Ideation & Wireframing</h2>
-      <p>One the major obstacles with the website is that the UX writing makes it very unclear. This is 
+      <p>One the major obstacles with the website is that the UX writing makes it very unclear. Good
+        UX writing helps us also target our problem statement by better building trust with customers
+        by educating users on the charity. Furthermore, this is 
         important as the charity has multiple arms to built a sustainable model to break the poverty 
         cycle for good. These are equally as important. We chose to focus on the school as this is 
         the major part of the charity.</p>
@@ -233,32 +404,32 @@
     </div>
 
 
+     <!--BOOTSTRAP COL SYSTEM-->
   <div class="container">
 
     <div class="row">
-      <div class="col-sm">
-        Schooling
+      <div class="col-sm orange-rectangle">
+        <h2 class="orange-rectangle-text">Schooling</h2>
       </div>
-      <div class="col-sm">
-        Nutrition
+      <div class="col-sm orange-rectangle">
+        <h2 class="orange-rectangle-text">Nutrition</h2>
       </div>
-      <div class="col-sm">
-        Sports
+      <div class="col-sm orange-rectangle">
+        <h2 class="orange-rectangle-text">Sports</h2>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm">
       </div>
-      <div class="col-sm">
-        Fairplay Cafe
+      <div class="col-sm orange-rectangle">
+        <h2 class="orange-rectangle-text middle">Fairplay Cafe</h2>
       </div>
       <div class="col-sm">
       </div>
     </div>
 
   </div>
-
 
 
   <div class="container"> 
@@ -266,22 +437,40 @@
     <p>It was necessary to organise all information related to content chunk information 
       pertaining with education on one page etc. Here is the wireframes:</p>
 
-      <img src="images/Wireframes.svg" alt="wireframes">
+  </div>
 
+ <!--BOOTSTRAP COL SYSTEM-->
+  <div class="container">
+    <div class="row">
+      <div class="col-l-3">
+      </div>
+      <div class="col-l-3">
+        <img src="images/Wireframes.svg" alt="wireframes" width="90%" height="90%">
+      </div>
+      <div class="col-l-3">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container"> 
     <p>The process went through another round of card sorting afterwards to better 
       re-orientate some of the information. </p>
       <h2>Prototype</h2>
       <p>
         This is our first prototype. This was designed in conjunction with Justine Carr. <br>
       The donation sequence was done by Emma. I had designed the first one but the team wanted to collaborate on quite large number of changes. This is the final product. 
+      </p> <br>
+      <p>Our prototype uses video on the home page to create an emotional connection with our user, educates them quickly on what the charity is about to build transparency and trust. 
       </p>
   </div>
 
 
+  <!--BOOTSTRAP JUMBOTRON-->
   <div class="jumbotron">
     <img src="images/Jumbotron2.svg" alt="fairplay case study cover" width="100%" height="100%">
   </div>
-
+  <!--END BOOTSTRAP JUMBOTRON-->
 
   <div class="container"> 
     <h2>Mobile Prototype</h2>
@@ -289,10 +478,11 @@
   </div>
 
 
+  <!--BOOTSTRAP JUMBOTRON-->
   <div class="jumbotron">
     <img src="images/Jumbotron3.svg" alt="fairplay case study cover" width="100%" height="100%">
   </div>
-  
+  <!--END BOOTSTRAP JUMBOTRON-->
 
 
   <div class="container"> 
@@ -311,6 +501,8 @@
   </div>
 
 
+   <!--BOOTSTRAP LIST GROUP-->
+    <!--BOOTSTRAP COL SYSTEM-->
   <div class="container">
 
     <div class="row">
@@ -323,12 +515,12 @@
         </ul>
       </div>
       <div class="col-sm">
-        <img src="images/Jumbotron3.svg" alt="fairplay case study cover" width="100%" height="100%">
+        <img src="images/MobileMenuTesting.svg" alt="mobile menu re-iteration" width="100%" height="100%">
       </div>
     </div>
 
   </div>
-
+  <!--END BOOTSTRAP LIST GROUP-->
 
 
   <div class="container"> 
@@ -339,13 +531,53 @@
     <h3>Organisation & Time Management</h3>
     <p>I was very lucky to get team members that each individual was very highly organised. Every trello board activity, artefact list, version, folder hygiene, stand up was managed with almost obsessive efficiency which made the project a bit of dream. Everyone knew what their role was each day throughout the project. Pivoting became a lot easier because the crucial daily stand ups were done well.</p>
     <h2>Future Considerations</h2>
-    <p>- Move the secondary footer bar into the black background to avoid confusion <br>
-      - Further UI visual improvements for the donation page <br>
-      - Build a Tagalog version of the website
-    </p>
+  </div>
+
+  <!--BOOTSTRAP CARDS-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+  
+            <p class="card-text">Move the secondary footer bar into the black background to avoid confusion</p>
+ 
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+        
+            <p class="card-text">Further UI visual improvements for the donation page</p>
+       
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+         
+            <p class="card-text">Build a Tagalog version of the website</p>
+      
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
+
+  <div class="bio-spacing"></div>
+
+
+
+
+
+
+
+
+ <!--FOOTER-->
   <footer class="footer-distributed footer-background">
 
     <div class="footer-left">
@@ -373,7 +605,7 @@
         </div>
         <div>
             <img src="images/email.svg" alt="email icon">
-            <p class="footer-email"><span>xina.ccastillo@gmail.com</span></p>
+            <p class="footer-email pink-text"><span>xina.ccastillo@gmail.com</span></p>
         </div>
     </div>
 
@@ -402,98 +634,6 @@
 
 
 
-    <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            One of three columns
-            <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            One of three columns
-            <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            One of three columns
-            <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
-                </div>
-              </div>
-          </div>
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            One of three columns
-            <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-      </div>
-
-
-
-
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-
-
-
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-
-      <ul class="list-group">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li>
-      </ul>
 
 
 

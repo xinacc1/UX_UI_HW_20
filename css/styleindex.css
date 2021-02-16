@@ -37,15 +37,15 @@ nav {
   width: 100%;
 } 
 
+.grey-text {
+  color: #707070;
+}
+
 .nav-push-left {
   height: 84px;
   width: 222px;
 }
 
-.button-nav {
-  margin: 8px;
-  padding: 0px 18px;
-} 
 
 .home-button {
   font-weight: 600;
